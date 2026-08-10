@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Experiment 2 — Data Link Layer Framing
+# 🌐 Experiment 2 - Data Link Layer Framing
 
 ### Character Stuffing &nbsp;•&nbsp; Bit Stuffing
 
