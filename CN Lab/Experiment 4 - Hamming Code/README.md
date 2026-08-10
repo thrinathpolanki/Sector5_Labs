@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Experiment 4 — Hamming Code
+# 🌐 Experiment 4 - Hamming Code
 
 ### Error Detection • Error Correction • Redundant Parity Bits
 
