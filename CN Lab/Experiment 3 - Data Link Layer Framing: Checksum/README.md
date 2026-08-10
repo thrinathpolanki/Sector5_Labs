@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Experiment 3 — Data Link Layer Framing: Checksum
+# 🌐 Experiment 3 - Data Link Layer Framing: Checksum
 
 ### Error Detection • Sender-Receiver Simulation
 
