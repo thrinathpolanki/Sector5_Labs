@@ -15,10 +15,7 @@
 
 # 🎯 Aim
 
-To write and execute a program to implement Data Link Layer framing methods, namely:
-
-1. Character Stuffing
-2. Bit Stuffing
+To implement and demonstrate the Data Link Layer framing techniques, namely Character Stuffing and Bit Stuffing, for reliable transmission of data by identifying and handling special flag characters or bit patterns within the data.
 
 [![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif)](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif)
 
