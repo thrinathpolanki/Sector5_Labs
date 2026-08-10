@@ -97,24 +97,20 @@ Sector5_Labs/
 │
 ├── 📘 Information-Retrieval-Systems-Lab/
 │   ├── Experiment-01-Text-Preprocessing/
-│   │   ├── src/
-│   │   ├── input/
-│   │   ├── output/
+│   │   ├── source_code
 │   │   └── README.md
 │   ├── Experiment-02-Inverted-Index/
-│   │   ├── src/
-│   │   ├── docs/
+│   │   ├── source_code
 │   │   └── README.md
 │   ├── Experiment-03-Boolean-Retrieval/
 │   └── ...
 │
 ├── 🌐 Computer-Networks-Lab/
 │   ├── Experiment-01-Socket-Programming/
-│   │   ├── src/
-│   │   ├── docs/
+│   │   ├── source_code
 │   │   └── README.md
 │   ├── Experiment-02-Routing-Algorithms/
-│   │   ├── src/
+│   │   ├── source_code
 │   │   └── README.md
 │   ├── Experiment-03-Packet-Analysis/
 │   └── ...
