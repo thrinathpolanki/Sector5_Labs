@@ -1,0 +1,28 @@
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+
+# Download resources once
+nltk.download('punkt')
+nltk.download('stopwords')
+
+# Step 1: Input Text Document
+text = "Machine learning algorithms are widely used in data analysis and data science tasks."
+
+# Step 2: Tokenize the text
+words = word_tokenize(text)
+
+# Step 3: Remove stop words
+stop_words = set(stopwords.words('english'))
+filtered_words = [word for word in words if word.lower() not in
+                   stop_words and word.isalpha()]
+
+# Step 4: Apply stemming
+stemmer = PorterStemmer()
+stemmed_words = [stemmer.stem(word) for word in filtered_words]
+
+# Step 5: Display Output
+print("Original Text:\n", text)
+print("\nAfter Stop Word Removal:\n", filtered_words)
+print("\nAfter Stemming:\n", stemmed_words)
