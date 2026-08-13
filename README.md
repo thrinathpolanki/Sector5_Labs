@@ -96,23 +96,23 @@ Experiments covering socket programming, network protocols, routing algorithms, 
 Sector5_Labs/
 │
 ├── 📘 Information-Retrieval-Systems-Lab/
-│   ├── Experiment-01-Text-Preprocessing/
+│   ├── Experiment-01-Cosine-Similarity-(TF-IDF)/
 │   │   ├── source_code
 │   │   └── README.md
-│   ├── Experiment-02-Inverted-Index/
+│   ├── Experiment-02-Pre-Processing-of-a-Text-Document/
 │   │   ├── source_code
 │   │   └── README.md
-│   ├── Experiment-03-Boolean-Retrieval/
+│   ├── Experiment-03-Construction-of-an-Inverted-Index-for-a-Document-Collection/
 │   └── ...
 │
 ├── 🌐 Computer-Networks-Lab/
 │   ├── Experiment-01-Socket-Programming/
 │   │   ├── source_code
 │   │   └── README.md
-│   ├── Experiment-02-Routing-Algorithms/
+│   ├── Experiment-02-Data-Link-Layer-Framing/
 │   │   ├── source_code
 │   │   └── README.md
-│   ├── Experiment-03-Packet-Analysis/
+│   ├── Experiment-03-Data-Link-Layer-Framing:-Checksum/
 │   └── ...
 │
 ├── 📄 LICENSE
