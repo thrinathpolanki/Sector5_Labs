@@ -9,6 +9,10 @@
 [![OSI Layer](https://img.shields.io/badge/OSI-Data%20Link%20Layer-2C5364?style=for-the-badge&logo=OSI&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-Completed-0D1117?style=for-the-badge&logo=checkmarx&logoColor=00F7FF)](#)
 
+[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fthrinathpolanki%2FSector5_Labs%2Ftree%2Fmain%2FComputer-Networks-Lab%2FExperiment-05-Cyclic-Redundancy-Check-%28CRC%29&count_bg=%2300F7FF&title_bg=%230D1117&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://github.com/thrinathpolanki/Sector5_Labs/tree/main/Computer-Networks-Lab/Experiment-05-Cyclic-Redundancy-Check-(CRC))
+
+📂 [`Experiment-05-Cyclic-Redundancy-Check-(CRC)`](https://github.com/thrinathpolanki/Sector5_Labs/tree/main/Computer-Networks-Lab/Experiment-05-Cyclic-Redundancy-Check-(CRC))
+
 </div>
 
 [![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif)](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif)
