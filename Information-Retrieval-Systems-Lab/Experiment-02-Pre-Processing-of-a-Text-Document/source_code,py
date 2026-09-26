@@ -1,28 +1,34 @@
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Download resources once
-nltk.download('punkt')
-nltk.download('stopwords')
+doc1 = "Machine learning is a branch of artificial intelligence."
+doc2 = "Artificial intelligence includes machine learning and deep learning."
+doc3 = "Deep learning is a subset of machine learning."
+doc4 = "Python is widely used for machine learning."
+doc5 = "Data science uses Python and machine learning."
+doc6 = "Football is a popular outdoor sport."
+doc7 = "Cricket is another famous outdoor game."
+doc8 = "The weather is sunny and pleasant today."
+doc9 = "Machine learning models require training data."
+doc10 = "Artificial intelligence is transforming many industries."
 
-# Step 1: Input Text Document
-text = "Machine learning algorithms are widely used in data analysis and data science tasks."
+documents = [
+    doc1, doc2, doc3, doc4, doc5,
+    doc6, doc7, doc8, doc9, doc10
+]
+vectorizer = TfidfVectorizer(stop_words='english')
+tfidf_matrix = vectorizer.fit_transform(documents)
 
-# Step 2: Tokenize the text
-words = word_tokenize(text)
+from sklearn.metrics.pairwise import cosine_similarity
+similarity = cosine_similarity(tfidf_matrix)
+print("Cosine Similarity Matrix:\n")
+print(similarity)
 
-# Step 3: Remove stop words
-stop_words = set(stopwords.words('english'))
-filtered_words = [word for word in words if word.lower() not in
-                   stop_words and word.isalpha()]
+import pandas as pd
+doc_names = [f"Doc{i}" for i in range(1, 11)]
+similarity_df = pd.DataFrame(
+    similarity,
+    index=doc_names,
+    columns=doc_names
+)
 
-# Step 4: Apply stemming
-stemmer = PorterStemmer()
-stemmed_words = [stemmer.stem(word) for word in filtered_words]
-
-# Step 5: Display Output
-print("Original Text:\n", text)
-print("\nAfter Stop Word Removal:\n", filtered_words)
-print("\nAfter Stemming:\n", stemmed_words)
+print(similarity_df.round(4))
