@@ -334,7 +334,7 @@ javac src/Main.java && java Main
 <div align="center">
 
 <!-- 🔧 Replace all placeholder links below with your actual profiles -->
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thrinathpolanki>)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thrinathpolanki)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thrinathpolanki)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:polankithrinath@gmail.com)
 
@@ -354,6 +354,6 @@ javac src/Main.java && java Main
 
   ### Made with ❤️ by **Thrinath**
 
-  <img src="https://komarev.com/ghpvc/?username=<your-github-username>&label=Thanks%20for%20visiting&color=00F7FF&style=flat-square" alt="Thanks Badge"/>
+  <img src="https://komarev.com/ghpvc/?username=thrinathpolanki&label=Thanks%20for%20visiting&color=00F7FF&style=flat-square" alt="Thanks Badge"/>
 
 </div>
